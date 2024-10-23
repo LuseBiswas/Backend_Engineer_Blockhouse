@@ -1,0 +1,17 @@
+services:
+  web:
+    build: .
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/app
+    working_dir: /app/finance_backend
+    ports:
+      - "8000:8000"
+    environment:
+      - DEBUG=1
+      - DJANGO_SETTINGS_MODULE=finance_backend.settings
+      - DB_NAME=neondb
+      - DB_USER=neondb_owner
+      - DB_PASSWORD=fyv3zhZA4xQj
+      - DB_HOST=ep-spring-cherry-a50az1g7.us-east-2.aws.neon.tech
+      - DB_PORT=5432
