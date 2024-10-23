@@ -7,9 +7,6 @@ This project integrates machine learning to prepare testing data, perform backte
 ## Table of Contents  
 - [Endpoints](#endpoints)  
 - [Installation](#installation)  
-- [Setup and Running the Server](#setup-and-running-the-server)  
-- [API Usage](#api-usage)  
-- [License](#license)  
 
 ---
 
