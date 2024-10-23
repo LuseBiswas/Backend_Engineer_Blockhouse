@@ -73,4 +73,7 @@ Follow the steps below to set up the project on your local machine:
    ```bash
    pip install -r requirements.txt
 
+## Testing Endpoint Software
+You can use POSTMAN to test it
+
 
